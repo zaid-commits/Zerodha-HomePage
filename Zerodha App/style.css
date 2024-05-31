@@ -1,0 +1,62 @@
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#image{
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 15px;
+    
+}
+
+#div2{
+    display: flex;
+    text-decoration: none;
+    /* justify-content: space-between; */
+}
+#container{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 2px 1px 2px #eee;
+
+}
+#landingimg{
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}
+
+#heading{
+    display: flex;
+    padding-top: 40px;
+    justify-content: center;
+}
+#description{
+    display: flex;
+    justify-content: center;
+    height: 10px;
+}
+
+#SignUpBtn{
+    display: flex;
+    padding-top: 80px;
+    justify-content: center;
+}
+#SignUpBtn button {
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#div2 a{
+    text-decoration: none;
+    color: #666;
+}
